@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T04:13:38.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
