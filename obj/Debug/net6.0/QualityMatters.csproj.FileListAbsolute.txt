@@ -59,3 +59,12 @@ C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Deb
 C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Debug\net6.0\QualityMatters.pdb
 C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Debug\net6.0\QualityMatters.genruntimeconfig.cache
 C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Debug\net6.0\ref\QualityMatters.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Debug\net6.0\QualityMatters.sourcelink.json
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\bin\Debug\net6.0\MailKit.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\bin\Debug\net6.0\MimeKit.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Debug\net6.0\QualityMatters.csproj.AssemblyReference.cache
+C:\Users\megaz\Downloads\QM-T-LandingPage-master\QM-T-LandingPage-master\obj\Debug\net6.0\QualityM.E33D5676.Up2Date

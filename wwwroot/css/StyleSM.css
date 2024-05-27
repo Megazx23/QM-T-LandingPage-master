@@ -22,6 +22,8 @@
     background-color: #111111; /* Color de fondo oscuro */
     color: #ffffff; /* Color del texto */
     padding: 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    overflow: hidden; /* Para asegurarte de que el contenido no sobresalga de los bordes curvos */
 }
 
 .core-packages-section .card-body {
@@ -37,6 +39,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 64px;
+    height: 64px;
 }
 
 .core-packages-section .card-body h1 {
@@ -47,7 +51,7 @@
     opacity: 0.1;
 }
 
-.core-packages-section .card-body .card-title {
+.core-packages-section .card-title {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -79,4 +83,154 @@
 
     .core-packages-section .get-started a:hover {
         text-decoration: underline;
+    }
+
+
+/* Estilos generales para las tarjetas */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card {
+    background-color: #004d00; /* Verde oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .custom-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.list-unstyled {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+    .list-unstyled li {
+        margin-bottom: 0.5rem;
+    }
+
+.get-started a {
+    color: #00aced; /* Color del enlace */
+    text-decoration: none;
+}
+
+    .get-started a:hover {
+        text-decoration: underline;
+    }
+
+.btn-primary {
+    background-color: #006600; /* Botones principales */
+    border-color: #006600;
+}
+
+    .btn-primary:hover {
+        background-color: #007700;
+    }
+
+
+/* Estilo para el contenedor del switch */
+.switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+/* Estilo para el switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 10px;
+}
+
+    /* Ocultar el checkbox real */
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+/* Estilo para el slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+/* Cambiar el fondo del slider cuando el checkbox está marcado */
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+    /* Mover el círculo del slider cuando el checkbox está marcado */
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
+
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+/* Otros estilos de botones y enlaces */
+.get-started a {
+    color: #00aced; /* Color del enlace */
+    text-decoration: none;
+}
+
+    .get-started a:hover {
+        text-decoration: underline;
+    }
+
+.btn-primary {
+    background-color: #006600; /* Botones principales */
+    border-color: #006600;
+}
+
+    .btn-primary:hover {
+        background-color: #007700;
     }

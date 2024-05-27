@@ -1,7 +1,15 @@
+using QualityMatters;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// Add configuration for SMTP settings
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+
+// Add email service
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 var app = builder.Build();
 

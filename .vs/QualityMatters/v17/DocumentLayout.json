@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\wwwroot\\css\\stylesm.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:wwwroot\\css\\stylesm.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\pages\\shared\\_corepackages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:pages\\shared\\_corepackages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\pages\\shared\\_footer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:pages\\shared\\_footer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\pages\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:pages\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|c:\\users\\megaz\\downloads\\qm-t-landingpage-master\\qm-t-landingpage-master\\pages\\shared\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4CCFE6-0622-4E7B-865A-1774F3FDDE2C}|QualityMatters.csproj|solutionrelative:pages\\shared\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +51,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StyleSM.css",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\wwwroot\\css\\StyleSM.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\StyleSM.css",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\wwwroot\\css\\StyleSM.css",
+              "RelativeToolTip": "wwwroot\\css\\StyleSM.css",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAowOwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-26T21:18:12.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_CorePackages.cshtml",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_CorePackages.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_CorePackages.cshtml",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_CorePackages.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_CorePackages.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T21:11:18.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Footer.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_Footer.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Footer.cshtml.cs",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_Footer.cshtml.cs",
+              "RelativeToolTip": "Pages\\Shared\\_Footer.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:09:50.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_About.cshtml",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_About.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_About.cshtml",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_About.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:07:35.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:07:50.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:00:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\SmtpSettings.cs",
+              "RelativeToolTip": "SmtpSettings.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:59:14.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAUwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:58:49.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-23T04:13:38.144Z",
+              "WhenOpened": "2024-05-26T19:56:47.494Z",
               "EditorCaption": ""
             }
           ]
