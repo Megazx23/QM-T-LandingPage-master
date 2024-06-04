@@ -2,6 +2,7 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var carouselModel = new QualityMatters.Pages.CarouselModel();
 }
-
+@await Html.PartialAsync("~/Pages/PartialViews/_Carousel.cshtml", carouselModel)
 

@@ -1,0 +1,105 @@
+﻿@model _FooterModel
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    .footer {
+        background-color: #212529;
+        color: #adb5bd;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+        .footer .btn-square {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #adb5bd;
+            transition: all 0.3s;
+        }
+
+            .footer .btn-square:hover {
+                background-color: #28a745;
+                color: #fff;
+                border-color: #28a745;
+            }
+
+        .footer h5 {
+            color: #fff;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer .btn-link {
+            color: #adb5bd;
+            transition: color 0.3s;
+        }
+
+            .footer .btn-link:hover {
+                color: #28a745;
+            }
+
+        .footer .form-control {
+            background-color: transparent;
+            color: #adb5bd;
+            border: 1px solid #adb5bd;
+            padding: 1rem;
+            transition: border-color 0.3s;
+        }
+
+            .footer .form-control:focus {
+                border-color: #28a745;
+                box-shadow: none;
+            }
+
+        .footer .btn-primary {
+            background-color: #28a745;
+            border-color: #28a745;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+            .footer .btn-primary:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+</style>
+
+<div class="container-fluid footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Address</h5>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i> info@tech.q-matters.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square me-2" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Services</h5>
+                <a class="btn btn-link" href="">Installing Software</a>
+                <a class="btn btn-link" href="">Software Development</a>
+                <a class="btn btn-link" href="">Quality and Safety Software</a>
+                <a class="btn btn-link" href="">Hosting</a>
+                <a class="btn btn-link" href="">Email Enterprise</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Quick Links</h5>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Send a Mail!</h5>
+                <p>Ask your doubts.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control mb-3" type="email" name="Email" placeholder="Email" required>
+                        <textarea class="form-control mb-3" name="Message" placeholder="Your Message Here!" required></textarea>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

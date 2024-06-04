@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TxOH+R8W1Nk=",
+  "dgSpecHash": "1qBhPwAMXsw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QualityMatters.csproj",
+  "projectFilePath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QualityMatters.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\megaz\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\megaz\\.nuget\\packages\\mailkit\\4.6.0\\mailkit.4.6.0.nupkg.sha512",

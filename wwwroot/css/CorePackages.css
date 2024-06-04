@@ -1,0 +1,92 @@
+﻿/* Estilo para el contenedor del switch */
+.billing-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    color: #b3b3b3;
+}
+
+    /* Estilo para los textos del switch */
+    .billing-toggle span {
+        margin: 0 10px;
+    }
+
+/* Estilo para el switch con bootstrap4-toggle */
+.toggle.btn {
+    min-width: 80px;
+}
+
+/* Estilo para el switch personalizado */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
+
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+/* Otros estilos de botones y enlaces */
+.get-started a {
+    color: #00aced; /* Color del enlace */
+    text-decoration: none;
+}
+
+    .get-started a:hover {
+        text-decoration: underline;
+    }
+
+.btn-primary {
+    background-color: #006600; /* Botones principales */
+    border-color: #006600;
+}
+
+    .btn-primary:hover {
+        background-color: #007700;
+    }

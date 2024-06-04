@@ -30,6 +30,9 @@
     <!-- Template Stylesheet -->
     <link href="~/css/style.css" rel="stylesheet">
     <link href="~/css/stylesm.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <link href="~/css/corepackages.css" rel="stylesheet" />
+    <link href="~/css/softwareforsale.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -41,27 +44,24 @@
     </div>
     <!-- Spinner End -->
     <!-- Include Partials -->
-    @await Html.PartialAsync("~/Pages/Shared/_Topbar.cshtml")
-    @await Html.PartialAsync("~/Pages/Shared/_Navbar.cshtml")
-    @await Html.PartialAsync("~/Pages/Shared/_Carousel.cshtml")
-    @await Html.PartialAsync("~/Pages/Shared/_Facts.cshtml")
+    @await Html.PartialAsync("~/Pages/PartialViews/_Topbar.cshtml")
+
+
+    @await Html.PartialAsync("~/Pages/PartialViews/_Navbar.cshtml")
+@*     @await Html.PartialAsync("~/Pages/Shared/_Facts.cshtml")
     @await Html.PartialAsync("~/Pages/Shared/_About.cshtml")
     @await Html.PartialAsync("~/Pages/Shared/_Service.cshtml")
     @await Html.PartialAsync("~/Pages/Shared/_Feature.cshtml")
     @await Html.PartialAsync("~/Pages/Shared/_CorePackages.cshtml")
-    @await Html.PartialAsync("~/Pages/Shared/_Quote.cshtml")
-
+    @await Html.PartialAsync("~/Pages/Shared/_SoftwareForSale.cshtml")
+    @await Html.PartialAsync("~/Pages/Shared/_Quote.cshtml") *@
     <!-- Main Content Start -->
     <main>
         @RenderBody()
     </main>
     <!-- Main Content End -->
     <!-- Footer Start -->
-    @{
-        var footerModel = new QualityMatters.Pages.Shared._FooterModel(null); // Si el constructor requiere dependencias, manejarlas adecuadamente
-    }
-    @await Html.PartialAsync("~/Pages/Shared/_Footer.cshtml", footerModel)
-    <!-- Footer End -->
+    @await Html.PartialAsync("~/Pages/PartialViews/_Footer.cshtml", new QualityMatters.Pages.PartialViews._FooterModel(null))    <!-- Footer End -->
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -79,24 +79,25 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-        document.getElementById('billing-toggle-checkbox').addEventListener('change', function () {
-            if (this.checked) {
-                document.querySelectorAll('.price.monthly').forEach(function (price) {
-                    price.style.display = 'none';
-                });
-                document.querySelectorAll('.price.yearly').forEach(function (price) {
-                    price.style.display = 'block';
-                });
-            } else {
-                document.querySelectorAll('.price.monthly').forEach(function (price) {
-                    price.style.display = 'block';
-                });
-                document.querySelectorAll('.price.yearly').forEach(function (price) {
-                    price.style.display = 'none';
-                });
-            }
+        $(document).ready(function () {
+            $('#billing-toggle-checkbox').bootstrapToggle({
+                on: '',
+                off: '',
+                style: 'empty-toggle'
+            });
+
+            $('#billing-toggle-checkbox').change(function () {
+                if ($(this).prop('checked')) {
+                    $('.price.yearly').hide();
+                    $('.price.monthly').show();
+                } else {
+                    $('.price.yearly').show();
+                    $('.price.monthly').hide();
+                }
+            });
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 
 
 </body>

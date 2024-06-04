@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Http.Extensions
+@{
+    var currentUrl = Context.Request.GetDisplayUrl();
+}
+
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+    <a asp-page="/Index" class="navbar-brand d-flex align-items-center">
+        <h2 class="m-0 text-primary">QM TECH</h2>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0">
+            <a asp-page="/Index" class="nav-item nav-link @(currentUrl.Contains("/Index") ? "active" : "")">Home</a>
+            <a asp-page="/About" class="nav-item nav-link @(currentUrl.Contains("/About") ? "active" : "")">About</a>
+            <a asp-page="/Facts" class="nav-item nav-link @(currentUrl.Contains("/Facts") ? "active" : "")">Facts</a>
+            <a asp-page="/Feature" class="nav-item nav-link @(currentUrl.Contains("/Feature") ? "active" : "")">Feature</a>
+            <a asp-page="/Service" class="nav-item nav-link @(currentUrl.Contains("/Service") ? "active" : "")">Our Services</a>
+            <a asp-page="/CorePackages" class="nav-item nav-link @(currentUrl.Contains("/CorePackages") ? "active" : "")">Pricing</a>
+            <a asp-page="/Quote" class="nav-item nav-link @(currentUrl.Contains("/Quote") ? "active" : "")">Contact Us</a>
+        </div>
+        <div class="h-100 d-lg-inline-flex align-items-center d-none">
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,28 @@
+﻿.templates-section .form-control {
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.templates-section .card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+    .templates-section .card:hover {
+        transform: translateY(-10px);
+    }
+
+#template-filters h6 {
+    margin-top: 20px;
+}
+
+#template-filters ul {
+    list-style: none;
+    padding: 0;
+}
+
+    #template-filters ul li {
+        margin-bottom: 10px;
+    }

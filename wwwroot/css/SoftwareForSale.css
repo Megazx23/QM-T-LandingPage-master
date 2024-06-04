@@ -1,0 +1,46 @@
+﻿/* Estilos para la sección de software */
+.software-section .custom-card {
+    background-color: #111111; /* Color de fondo oscuro */
+    color: #ffffff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    overflow: hidden; /* Para asegurarte de que el contenido no sobresalga de los bordes curvos */
+}
+
+.software-section .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.software-section .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.software-section .price {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.software-section .list-unstyled {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+    .software-section .list-unstyled li {
+        margin-bottom: 0.5rem;
+    }
+
+.software-section .btn-primary {
+    background-color: #006600; /* Botones principales */
+    border-color: #006600;
+}
+
+    .software-section .btn-primary:hover {
+        background-color: #007700;
+    }

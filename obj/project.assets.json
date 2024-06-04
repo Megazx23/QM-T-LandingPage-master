@@ -277,11 +277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QualityMatters.csproj",
+      "projectUniqueName": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QualityMatters.csproj",
       "projectName": "QualityMatters",
-      "projectPath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QualityMatters.csproj",
+      "projectPath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QualityMatters.csproj",
       "packagesPath": "C:\\Users\\megaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\obj\\",
+      "outputPath": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

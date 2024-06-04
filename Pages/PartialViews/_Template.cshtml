@@ -1,0 +1,75 @@
+﻿@model QualityMatters.Pages.TemplateModel
+
+<link href="~/css/template.css" rel="stylesheet" />
+<div id="templates" class="container-xxl py-5 templates-section">
+    <div class="container">
+        <div class="text-center">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h1 class="display-5 mb-5">Choose Your Perfect Template</h1>
+            <input type="text" class="form-control" id="template-search" placeholder="Search templates...">
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5 class="mt-4">Filter By:</h5>
+                <div id="template-filters">
+                    <h6>Layouts</h6>
+                    <ul>
+                        <li><input type="checkbox" value="Dashboards"> Dashboards</li>
+                        <li><input type="checkbox" value="UI Kits"> UI Kits</li>
+                    </ul>
+                    <h6>Framework</h6>
+                    <ul>
+                        <li><input type="checkbox" value="React"> React</li>
+                        <li><input type="checkbox" value="Bootstrap"> Bootstrap</li>
+                        <li><input type="checkbox" value="Vue"> Vue</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row" id="template-list">
+                    <div class="col-md-4 mb-4 template-item" data-framework="Bootstrap">
+                        <div class="card">
+                            <img src="~/img/template1.jpg" class="card-img-top" alt="Template 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Material Dashboard 2 Pro</h5>
+                                <p class="card-text">Premium Bootstrap 5 Admin Template</p>
+                                <a href="https://www.creative-tim.com/bootstrap-themes" class="btn btn-primary">$79</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más plantillas aquí -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("template-search");
+        const checkboxes = document.querySelectorAll("#template-filters input[type=checkbox]");
+        const templateItems = document.querySelectorAll(".template-item");
+
+        searchInput.addEventListener("input", filterTemplates);
+        checkboxes.forEach(checkbox => checkbox.addEventListener("change", filterTemplates));
+
+        function filterTemplates() {
+            const searchText = searchInput.value.toLowerCase();
+            const activeFilters = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
+
+            templateItems.forEach(item => {
+                const title = item.querySelector(".card-title").textContent.toLowerCase();
+                const framework = item.dataset.framework;
+                const matchesSearch = title.includes(searchText);
+                const matchesFilters = activeFilters.length === 0 || activeFilters.includes(framework);
+
+                if (matchesSearch && matchesFilters) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+    });
+
+                                </script>
