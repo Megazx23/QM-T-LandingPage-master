@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\css\\Feature.css"
     },
     {
+      "Id": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\wwwroot\\css\\MarketSoftware.css",
+      "PackagePath": "staticwebassets\\css\\MarketSoftware.css"
+    },
+    {
+      "Id": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\wwwroot\\css\\MarketWebApp.css",
+      "PackagePath": "staticwebassets\\css\\MarketWebApp.css"
+    },
+    {
       "Id": "C:\\Users\\megaz\\Downloads\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\QM-T-LandingPage-master\\wwwroot\\css\\SoftwareForSale.css",
       "PackagePath": "staticwebassets\\css\\SoftwareForSale.css"
     },

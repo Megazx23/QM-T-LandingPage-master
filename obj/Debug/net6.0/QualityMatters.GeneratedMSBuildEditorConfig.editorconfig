@@ -46,8 +46,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/Martket_Software.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFydGtldF9Tb2Z0d2FyZS5jc2h0bWw=
+[C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/MarketSoftware.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFya2V0U29mdHdhcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/MarketWebApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFya2V0V2ViQXBwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/Navbar.cshtml]
@@ -84,6 +88,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/PartialViews/_MarketSoftware.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFZpZXdzXF9NYXJrZXRTb2Z0d2FyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/PartialViews/_MarketWebApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFZpZXdzXF9NYXJrZXRXZWJBcHAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/megaz/Downloads/QM-T-LandingPage-master/QM-T-LandingPage-master/QM-T-LandingPage-master/Pages/PartialViews/_Navbar.cshtml]

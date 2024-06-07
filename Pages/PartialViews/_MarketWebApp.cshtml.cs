@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace QualityMatters.Pages
+namespace QualityMatters.Pages.PartialViews
 {
-    public class Martket_SoftwareModel : PageModel
+    public class _MarketWebAppModel : PageModel
     {
         public void OnGet()
         {

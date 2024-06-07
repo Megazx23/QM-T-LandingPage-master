@@ -1,4 +1,95 @@
-﻿@page
-@model QualityMatters.Pages.PartialViews._MarketSoftwareModel
-@{
-}
+﻿@model MarketSoftwareModel
+<link href="~/css/MarketSoftware.css" rel="stylesheet" />
+<div id="software-market" class="container-xxl py-5 templates-section">
+    <div class="container">
+        <div class="text-center">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h1 class="display-5 mb-5">Encuentra Tu Software Perfecto</h1>
+            <input type="text" class="form-control" id="software-search" placeholder="Buscar software...">
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5 class="mt-4">Filtrar Por:</h5>
+                <div id="software-filters">
+                    <h6>Categorías</h6>
+                    <ul>
+                        <li><input type="checkbox" value="Antivirus"> Antivirus</li>
+                        <li><input type="checkbox" value="Ofimática"> Ofimática</li>
+                        <li><input type="checkbox" value="Edición"> Edición</li>
+                    </ul>
+                    <h6>Sistema Operativo</h6>
+                    <ul>
+                        <li><input type="checkbox" value="Windows"> Windows</li>
+                        <li><input type="checkbox" value="Mac"> Mac</li>
+                        <li><input type="checkbox" value="Linux"> Linux</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row" id="software-list">
+                    <div class="col-md-4 mb-4 software-item" data-category="Antivirus" data-os="Windows">
+                        <div class="card">
+                            <img src="~/img/software1.jpg" class="card-img-top" alt="Antivirus Pro">
+                            <div class="card-body">
+                                <h5 class="card-title">Antivirus Pro</h5>
+                                <p class="card-text">Protección avanzada para tu PC</p>
+                                <a href="https://example.com" class="btn btn-primary">$49</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 software-item" data-category="Ofimática" data-os="Windows">
+                        <div class="card">
+                            <img src="~/img/software2.jpg" class="card-img-top" alt="Office Suite">
+                            <div class="card-body">
+                                <h5 class="card-title">Office Suite</h5>
+                                <p class="card-text">Herramientas completas de oficina</p>
+                                <a href="https://example.com" class="btn btn-primary">$99</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 software-item" data-category="Edición" data-os="Mac">
+                        <div class="card">
+                            <img src="~/img/software3.jpg" class="card-img-top" alt="Editor de Video">
+                            <div class="card-body">
+                                <h5 class="card-title">Editor de Video</h5>
+                                <p class="card-text">Software profesional de edición de video</p>
+                                <a href="https://example.com" class="btn btn-primary">$149</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más software aquí -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("software-search");
+        const checkboxes = document.querySelectorAll("#software-filters input[type=checkbox]");
+        const softwareItems = document.querySelectorAll(".software-item");
+
+        searchInput.addEventListener("input", filterSoftware);
+        checkboxes.forEach(checkbox => checkbox.addEventListener("change", filterSoftware));
+
+        function filterSoftware() {
+            const searchText = searchInput.value.toLowerCase();
+            const activeFilters = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
+
+            softwareItems.forEach(item => {
+                const title = item.querySelector(".card-title").textContent.toLowerCase();
+                const category = item.dataset.category;
+                const os = item.dataset.os;
+                const matchesSearch = title.includes(searchText);
+                const matchesFilters = activeFilters.length === 0 || activeFilters.includes(category) || activeFilters.includes(os);
+
+                if (matchesSearch && matchesFilters) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+    });
+</script>

@@ -1,0 +1,95 @@
+﻿@model MarketWebAppModel
+<link href="~/css/MarketWebApp.css" rel="stylesheet" />
+<div id="webapp-market" class="container-xxl py-5 templates-section">
+    <div class="container">
+        <div class="text-center">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h1 class="display-5 mb-5">Encuentra Tu Servicio Perfecto</h1>
+            <input type="text" class="form-control mb-4" id="webapp-search" placeholder="Buscar servicios...">
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5 class="mt-4">Filtrar Por:</h5>
+                <div id="webapp-filters">
+                    <h6>Categorías</h6>
+                    <ul>
+                        <li><input type="checkbox" value="Páginas Web"> Páginas Web</li>
+                        <li><input type="checkbox" value="Aplicaciones Móviles"> Aplicaciones Móviles</li>
+                        <li><input type="checkbox" value="SEO"> SEO</li>
+                    </ul>
+                    <h6>Plataforma</h6>
+                    <ul>
+                        <li><input type="checkbox" value="Android"> Android</li>
+                        <li><input type="checkbox" value="iOS"> iOS</li>
+                        <li><input type="checkbox" value="Web"> Web</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row" id="webapp-list">
+                    <div class="col-md-4 mb-4 webapp-item" data-category="Páginas Web" data-platform="Web">
+                        <div class="card">
+                            <img src="~/img/webapp1.jpg" class="card-img-top" alt="Desarrollo Web">
+                            <div class="card-body">
+                                <h5 class="card-title">Desarrollo Web Profesional</h5>
+                                <p class="card-text">Crea tu presencia en línea con una página web personalizada</p>
+                                <a href="https://example.com" class="btn btn-primary">$500</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 webapp-item" data-category="Aplicaciones Móviles" data-platform="Android">
+                        <div class="card">
+                            <img src="~/img/webapp2.jpg" class="card-img-top" alt="App Android">
+                            <div class="card-body">
+                                <h5 class="card-title">Desarrollo de Aplicaciones Android</h5>
+                                <p class="card-text">Aplicaciones móviles personalizadas para tu negocio</p>
+                                <a href="https://example.com" class="btn btn-primary">$700</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 webapp-item" data-category="SEO" data-platform="Web">
+                        <div class="card">
+                            <img src="~/img/webapp3.jpg" class="card-img-top" alt="Servicio SEO">
+                            <div class="card-body">
+                                <h5 class="card-title">Optimización SEO</h5>
+                                <p class="card-text">Mejora la visibilidad de tu sitio web en los motores de búsqueda</p>
+                                <a href="https://example.com" class="btn btn-primary">$300</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más servicios aquí -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("webapp-search");
+        const checkboxes = document.querySelectorAll("#webapp-filters input[type=checkbox]");
+        const webappItems = document.querySelectorAll(".webapp-item");
+
+        searchInput.addEventListener("input", filterWebApps);
+        checkboxes.forEach(checkbox => checkbox.addEventListener("change", filterWebApps));
+
+        function filterWebApps() {
+            const searchText = searchInput.value.toLowerCase();
+            const activeFilters = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
+
+            webappItems.forEach(item => {
+                const title = item.querySelector(".card-title").textContent.toLowerCase();
+                const category = item.dataset.category;
+                const platform = item.dataset.platform;
+                const matchesSearch = title.includes(searchText);
+                const matchesFilters = activeFilters.length === 0 || activeFilters.includes(category) || activeFilters.includes(platform);
+
+                if (matchesSearch && matchesFilters) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+    });
+</script>

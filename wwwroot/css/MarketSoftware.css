@@ -1,0 +1,105 @@
+﻿body {
+    background: #eee;
+    margin-top: 20px;
+}
+
+/* General Styles */
+.templates-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+    .templates-section h1 {
+        font-size: 2.5rem;
+        color: #28a745;
+        margin-bottom: 1.5rem;
+    }
+
+    .templates-section .form-control {
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 30px;
+        padding: 0.75rem 1.5rem;
+        border: 1px solid #28a745;
+        box-shadow: none;
+    }
+
+        .templates-section .form-control:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+#template-filters, #webapp-filters {
+    margin-top: 20px;
+}
+
+    #template-filters h6, #webapp-filters h6 {
+        color: #28a745;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    #template-filters ul, #webapp-filters ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        #template-filters ul li, #webapp-filters ul li {
+            margin-bottom: 10px;
+        }
+
+            #template-filters ul li input, #webapp-filters ul li input {
+                margin-right: 10px;
+            }
+
+.template-item, .webapp-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+    .template-item .card, .webapp-item .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        border-radius: 15px;
+    }
+
+        .template-item .card:hover, .webapp-item .card:hover {
+            transform: translateY(-10px);
+        }
+
+    .template-item .card-img-top, .webapp-item .card-img-top {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .template-item .card-body, .webapp-item .card-body {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .template-item .card-title, .webapp-item .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .template-item .card-text, .webapp-item .card-text {
+        margin: 10px 0;
+    }
+
+    .template-item .btn, .webapp-item .btn {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: background-color 0.3s;
+    }
+
+        .template-item .btn:hover, .webapp-item .btn:hover {
+            background-color: #218838;
+        }
