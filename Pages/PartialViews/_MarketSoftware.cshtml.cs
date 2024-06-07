@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace QualityMatters.Pages.Shared
+namespace QualityMatters.Pages.PartialViews
 {
-    public class _NavbarModel : PageModel
+    public class _MarketSoftwareModel : PageModel
     {
         public void OnGet()
         {

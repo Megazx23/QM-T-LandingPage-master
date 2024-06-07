@@ -1,108 +1,105 @@
-﻿    @model CarouselModel
+﻿@model CarouselModel
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css">
 
-    <style>
-        .carousel-caption {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-            text-align: center;
-        }
+<style>
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        text-align: center;
+        color: #fff;
+    }
 
-        .carousel-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 5;
-        }
+    .carousel-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+    }
 
-        .carousel-caption h1,
-        .carousel-caption p {
-            color: #fff;
-        }
+    .owl-carousel-item img {
+        width: 100%;
+        height: auto;
+        max-height: 120vh;
+        object-fit: cover;
+    }
+    h1{
+        color:#fff;
+    }
+</style>
 
-        .owl-carousel-item {
-            position: relative;
-        }
-
-        .owl-carousel-item img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-
-    <div id="home" class="container-fluid p-0 pb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <div class="carousel-overlay"></div>
-                <img class="img-fluid" src="~/img/Installing_Software_Carousel.webp" style="max-height: 120vh; object-fit: cover;" alt="Installing Software">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <h1 class="display-3 animated slideInDown mb-4">Installing Software</h1>
-                    <p class="fs-5 mb-4 pb-2">We provide professional software installation services to ensure your applications are set up correctly and efficiently. Our team handles everything from installation to configuration, ensuring your software operates smoothly and effectively.</p>
-                    <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">Get a Free Quote!</a>
-                </div>
+<div id="home" class="container-fluid p-0 pb-5">
+    <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+            <div class="carousel-overlay"></div>
+            <img class="img-fluid" src="~/img/Installing_Software_Carousel.webp" alt="Instalación de Software">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-3 animated slideInDown mb-4">Instalación de Software</h1>
+                <p class="fs-5 mb-4 pb-2">Servicios profesionales de instalación de software para asegurar que tus aplicaciones estén configuradas correctamente y funcionen eficientemente.</p>
+                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">¡Cotización Gratis!</a>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <div class="carousel-overlay"></div>
-                <img class="img-fluid" src="~/img/Software_Development_Carousel.webp" style="max-height: 120vh; object-fit: cover;" alt="Software Development">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <h1 class="display-3 animated slideInDown mb-4">Software Development</h1>
-                    <p class="fs-5 mb-4 pb-2">We create software solutions tailored specifically to the needs of your business. From mobile applications to web and cloud systems, our team is responsible for developing customized tools that drive the growth and efficiency of your company.</p>
-                    <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">Get a Free Quote!</a>
-                </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <div class="carousel-overlay"></div>
+            <img class="img-fluid" src="~/img/Software_Development_Carousel.webp" alt="Desarrollo de Software">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-3 animated slideInDown mb-4">Desarrollo de Software</h1>
+                <p class="fs-5 mb-4 pb-2">Creamos soluciones de software adaptadas a las necesidades de tu negocio. Desde aplicaciones móviles hasta sistemas web y en la nube.</p>
+                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">¡Cotización Gratis!</a>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <div class="carousel-overlay"></div>
-                <img class="img-fluid" src="~/img/Quality_and_Safety_Software_Carousel.webp" style="max-height: 120vh; object-fit: cover;" alt="Quality and Safety Software">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <h1 class="display-3 animated slideInDown mb-4">Quality and Safety Software</h1>
-                    <p class="fs-5 mb-4 pb-2">Our quality and safety software solutions help you maintain compliance and enhance safety standards. We provide tools that streamline processes, ensure regulatory adherence, and improve overall safety performance.</p>
-                    <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">Get a Free Quote!</a>
-                </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <div class="carousel-overlay"></div>
+            <img class="img-fluid" src="~/img/Quality_and_Safety_Software_Carousel.webp" alt="Software de Calidad y Seguridad">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-3 animated slideInDown mb-4">Software de Calidad y Seguridad</h1>
+                <p class="fs-5 mb-4 pb-2">Nuestras soluciones de software de calidad y seguridad te ayudan a mantener el cumplimiento y mejorar los estándares de seguridad.</p>
+                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">¡Cotización Gratis!</a>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <div class="carousel-overlay"></div>
-                <img class="img-fluid" src="~/img/Hosting_T_Carousel.webp" style="max-height: 120vh; object-fit: cover;" alt="Hosting">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <h1 class="display-3 animated slideInDown mb-4">Hosting</h1>
-                    <p class="fs-5 mb-4 pb-2">We offer reliable and secure hosting services for your websites and applications. Our hosting solutions provide high uptime, robust security, and excellent performance to ensure your online presence is always available and secure.</p>
-                    <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">Get a Free Quote!</a>
-                </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <div class="carousel-overlay"></div>
+            <img class="img-fluid" src="~/img/Hosting_T_Carousel.webp" alt="Hosting">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-3 animated slideInDown mb-4">Hosting</h1>
+                <p class="fs-5 mb-4 pb-2">Ofrecemos servicios de hosting confiables y seguros para tus sitios web y aplicaciones.</p>
+                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">¡Cotización Gratis!</a>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <div class="carousel-overlay"></div>
-                <img class="img-fluid" src="~/img/Professional_email_Carousel.webp" style="max-height: 120vh; object-fit: cover;" alt="Email Enterprise">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <h1 class="display-3 animated slideInDown mb-4">Email Enterprise</h1>
-                    <p class="fs-5 mb-4 pb-2">Our enterprise email solutions offer reliable and secure email services tailored to your business needs. With advanced security features, ample storage, and seamless integration, we ensure your communication is always efficient and protected.</p>
-                    <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">Get a Free Quote!</a>
-                </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <div class="carousel-overlay"></div>
+            <img class="img-fluid" src="~/img/Professional_email_Carousel.webp" alt="Correo Empresarial">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-3 animated slideInDown mb-4">Correo Empresarial</h1>
+                <p class="fs-5 mb-4 pb-2">Nuestras soluciones de correo electrónico empresarial ofrecen servicios de correo confiables y seguros adaptados a las necesidades de tu negocio.</p>
+                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 animated slideInUp">¡Cotización Gratis!</a>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $(".owl-carousel").owlCarousel({
-                items: 1,
-                loop: true,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                smartSpeed: 1000,
-                animateIn: 'fadeIn',
-                animateOut: 'fadeOut',
-                dots: true,
-                nav: false
-            });
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 1000,
+            animateIn: 'fadeIn',
+            animateOut: 'fadeOut',
+            dots: true,
+            nav: false
         });
-    </script>
+    });
+</script>
